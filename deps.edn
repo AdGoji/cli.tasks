@@ -1,0 +1,10 @@
+{:paths ["src" "resources"]
+ :deps {
+         spartan.spec {:local/root "vendor/spartan.spec"}
+         
+         ;borkdude/spartan.spec {:git/url "https://github.com/borkdude/spartan.spec"
+         ;                       :sha "4762f629ac2d146da2296923bb8b40fb42c69b30"}       
+         org.clojure/tools.cli {:mvn/version "0.4.2"}        
+      }
+ }
+  
